@@ -80,8 +80,8 @@ def postTicketToFS():
     "email":"alerts@lexusofmemphis.com",
     "status":2,
     "priority":idr_priority,
-    "source":12,
-    "group_id":17,
+    # "source":12,
+    # "group_id":17,
     "category":'InsightIDR'
     }
     global ticketID
