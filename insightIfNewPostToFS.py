@@ -79,10 +79,10 @@ def postTicketToFS():
     "subject":"Security Incident: " + item["title"],
     "email":"alerts@lexusofmemphis.com",
     "status":2,
-    "priority":idr_priority
-    # "source":12,
-    # "group_id":17,
-    # "category":'InsightIDR'
+    "priority":idr_priority,
+    "source":14,
+    "group_id":21000544549,
+    "category":"InsightIDR"
     }
     global ticketID
     r = requests.post(url, auth=(FS_API, 'X'), data=json.dumps(data), headers= {'Content-Type': 'application/json'})
