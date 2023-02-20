@@ -30,7 +30,7 @@ def getInsightInvestigations():
     "Accept-version": "investigations-preview"
     }
     params = {
-    "statuses": "OPEN",
+    "statuses": "OPEN,INVESTIGATING",
     "multi-customer": True,
     "sources": "ALERT",
     "priorities": "CRITICAL,HIGH,MEDIUM,LOW"
